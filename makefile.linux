@@ -1,0 +1,3 @@
+wav_encoder: wav_encoder.c
+	gcc -g -o wav_encoder wav_encoder.c -I ./include/ -lpthread ./include/libmp3lame.a -lm
+
